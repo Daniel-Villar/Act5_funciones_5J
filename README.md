@@ -1,30 +1,7 @@
 # Act5_funciones_5J
 Ejemplo de uso de funciones de w3school
-print("declarando funciones")
-#declarando funciones
-def hola():
-    print("alguien uso la funcion hola")
+## codigo
+-![image](https://github.com/user-attachments/assets/77bd520d-08d8-447b-a05c-03d339cfca9c)
+## resultado
+- ![image](https://github.com/user-attachments/assets/558baf2c-1351-4231-a502-fc7b99272f2d)
 
-def chat(mensa):
-    print(f"Chat {mensa}")
-
-def ellacontesta(mensa):
-    print(f"chat ella: {mensa}")
-
-def escribenombre(ap,n):
-    print(f"Tu nombre completo es: {n}{ap}")
-    
-    def suma(a,b):
-        s=a+b
-        return s
-
-    #llamadas de funciones
-    hola()
-    chat("Que bonito estas")
-    ellacontesta("graciaas")
-    escribenombre("Villar","Daniel")
-    print("Operacion suma")
-    c1=int(input("ingresa un numero"))
-    c2=int(input("ingresa un numero"))
-    damesuma=suma(c1,c2)
-    print(f"la suma de {c1}+{c2}={damesuma}")
